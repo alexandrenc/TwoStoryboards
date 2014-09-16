@@ -13,6 +13,8 @@
 		AC39EEF519C8E1FE002B4089 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC39EEF419C8E1FE002B4089 /* Images.xcassets */; };
 		AC39EEF819C8E1FE002B4089 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC39EEF619C8E1FE002B4089 /* LaunchScreen.xib */; };
 		AC39EF0419C8E1FE002B4089 /* TwoStoryboardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39EF0319C8E1FE002B4089 /* TwoStoryboardsTests.swift */; };
+		AC39EF0F19C8E3AC002B4089 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC39EF0D19C8E3AC002B4089 /* Main_iPhone.storyboard */; };
+		AC39EF1219C8E3CE002B4089 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC39EF1019C8E3CE002B4089 /* Main_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		AC39EEFD19C8E1FE002B4089 /* TwoStoryboardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoStoryboardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC39EF0219C8E1FE002B4089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC39EF0319C8E1FE002B4089 /* TwoStoryboardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStoryboardsTests.swift; sourceTree = "<group>"; };
+		AC39EF0E19C8E3AC002B4089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AC39EF1119C8E3CE002B4089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				AC39EEED19C8E1FE002B4089 /* AppDelegate.swift */,
 				AC39EEEF19C8E1FE002B4089 /* ViewController.swift */,
 				AC39EEF119C8E1FE002B4089 /* Main.storyboard */,
+				AC39EF0D19C8E3AC002B4089 /* Main_iPhone.storyboard */,
+				AC39EF1019C8E3CE002B4089 /* Main_iPad.storyboard */,
 				AC39EEF419C8E1FE002B4089 /* Images.xcassets */,
 				AC39EEF619C8E1FE002B4089 /* LaunchScreen.xib */,
 				AC39EEEB19C8E1FE002B4089 /* Supporting Files */,
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC39EF1219C8E3CE002B4089 /* Main_iPad.storyboard in Resources */,
+				AC39EF0F19C8E3AC002B4089 /* Main_iPhone.storyboard in Resources */,
 				AC39EEF319C8E1FE002B4089 /* Main.storyboard in Resources */,
 				AC39EEF819C8E1FE002B4089 /* LaunchScreen.xib in Resources */,
 				AC39EEF519C8E1FE002B4089 /* Images.xcassets in Resources */,
@@ -250,6 +258,22 @@
 				AC39EEF719C8E1FE002B4089 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		AC39EF0D19C8E3AC002B4089 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC39EF0E19C8E3AC002B4089 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AC39EF1019C8E3CE002B4089 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC39EF1119C8E3CE002B4089 /* Base */,
+			);
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,6 +431,7 @@
 				AC39EF0919C8E1FE002B4089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC39EF0A19C8E1FE002B4089 /* Build configuration list for PBXNativeTarget "TwoStoryboardsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +440,7 @@
 				AC39EF0C19C8E1FE002B4089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
